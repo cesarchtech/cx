@@ -1,0 +1,51 @@
+<!-- MENU DROPDOWN -->
+				<div class="topnav" id="myTopnav">
+				<link href="css/styleMenu.css" rel="stylesheet" type="text/css"/>
+				  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+				  <a href="index.php" id="home">Home </a>
+				  <div class="dropdown">
+					<button class="dropbtn">Cadastros
+					  <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+					  <a href="cadlanc.php" id="cad">Cadastrar Lançamentos</a>
+					  <a href="cadori.php" id="cad">Cadastrar Origem</a> 
+					  <a href="cadtip.php" id="cad">Cadastrar Tipos </a>				 
+					  <a href="cadsubtip.php" id="cad">Cadastrar Subtipos </a>
+					</div>
+				  </div>
+				  <a href="saldos.php" id="cad">Saldos</a>	
+				  <div class="dropdown">				  
+				  <button class="dropbtn">Relatórios <i class="fa fa-caret-down"></i></button>
+					<div class="dropdown-content">
+					  <a href="relatorios1.php" id="cad">Relatório Geral</a>
+					  <!--<a href="relatoriosgg.php" id="cad">Relatório Gráfico Geral</a>-->
+					  <a href="relatoriosdin.php" id="cad">Relatório Dinheiro</a>
+					  <a href="relatorioscart.php" id="cad">Relatórios Cartão</a> 				 
+					</div>
+				  </div>
+				  <div class="dropdown">
+					<button class="dropbtn">Cartão
+					  <i class="fa fa-caret-down"></i>
+					</button>
+					<div class="dropdown-content">
+					  <a href="cadcart.php">Cadastrar Cartão</a>
+					  <a href="cadlanccartao.php" id="cad">Lançamentos Cartão</a>
+					</div>
+				  </div>				  
+				  
+				  	
+				</div>
+				
+					<script type="text/javascript">
+					/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+					function myFunction() {
+					  var x = document.getElementById("myTopnav");
+					  if (x.className === "topnav") {
+						x.className += " responsive";
+					  } else {
+						x.className = "topnav";
+					  }
+					}
+					</script>
+	<!-- MENU DROPDOWN -->
