@@ -2,7 +2,7 @@
 	$hostName = 'localhost';
 	$userName = 'root';
 	$passWord = 'metalica';
-	$nomeBanco = 'cxnv';
+	$nomeBanco = 'caixa';
 	
 	$conexao = mysqli_connect($hostName,$userName,$passWord,$nomeBanco);
 	
