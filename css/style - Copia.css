@@ -1,0 +1,287 @@
+.menu ul
+{
+	height:auto;
+	list-style-type: none;
+	background-color: #2900a8;
+	overflow:hidden;
+	padding: 5;
+	margin: 0;
+	font-family: 'Sansita', sans-serif;
+}
+
+.menu ul li
+{
+	display: inline; 
+}
+
+.menu ul li a 
+{
+	width: 80px;
+	height: 65px;
+	background-color: #FFFFFF;
+	padding: 5px;
+	display: table-caption;
+	color: black;
+	text-align: center;
+}
+
+.menu ul li a:hover
+{
+	background-color: #84c8e8;
+}
+
+a:link
+{
+	text-decoration: none;
+}
+
+a 
+{
+	color: inherit; 
+} 
+
+
+.conteudo
+{	
+	padding:10px;
+	background-color: #84c8e8;
+	margin: auto;
+	overflow-x:auto;
+}
+
+.blocofuturo
+{	
+	padding:0px;
+	background-color: #84c832;
+	margin: auto;
+	overflow-x:auto;
+}
+
+.blocomes
+{	
+	padding:0px;
+	background-color: #84c832;
+	margin: auto;
+	overflow-x:auto;
+}
+
+.blocohome
+{	
+	border-style: solid;
+	border-width: 2px;
+	border-color: #00A859;
+	background-color: #84E8B9;
+	text-align: center;
+}
+
+.blocolista
+{
+	border-style: solid;
+	border-width: 2px;
+	border-color: #00A859;
+	background-color: #84E8B9;
+	text-align: left;
+}
+
+.clear
+{
+	clear:both;
+}
+
+.conteudologin
+{
+	width: 95%;
+	height: 95%;
+	background-color: #84E8B9;
+	margin: auto;
+}
+
+.logologin
+{
+	width: 40%;
+	height: 40%;
+	background-color: #84E8B9;
+	text-align: center;
+	margin: auto;
+	padding: 15px
+}
+
+#imagemlogologin
+{
+	width: 80%;
+	height: 80%;
+}
+
+#formlogin
+{
+	text-align: center;
+	width:80%;
+	height:auto;
+	background-color: #00A859;
+	margin: auto;
+	padding: 10px;
+	position:relative;
+	color: #FFFFFF;
+}
+
+#formlogin a
+{
+	color: #FFFFFF;
+	margin-right: 5%
+}
+
+#botaologin
+{
+	margin-top: 10px;
+	height:10%;
+	width:50%;
+	color: #00A859;
+}
+
+#questbutton
+{
+	border-style: solid;
+	border-width: 2px;
+	border-color: #A70000;
+	background-color: #A70000;
+	text-align: center;	
+}
+
+#formbuttoncad
+{
+	display: inline-block;	
+	width: 40%;
+	height: 40%;
+	padding: 10px;
+}
+
+#buttoncad
+{
+	width: 100%;
+	height: 100%;
+	font-size: 30px;
+	color: #A70000;
+}
+
+#formbuttonedit
+{
+	display: inline-block;	
+	width: 40%;
+	height: 40%;		
+}
+
+#buttonsalvar
+{
+	width: 100%;
+	height: 10%;	
+	font-size: 100%;	
+	color: #00A859;	
+}
+
+#formcadcliente
+{
+	text-align:left;
+	background-color: #00A859;
+	width: auto;
+	height: auto;	
+	color: white;
+	padding: 10px;
+	margin: auto;
+}
+#brvdesc
+{
+	word-wrap: break-word;
+	word-break: break-all;
+	text-align: left;
+	height: 150px;
+	width: 300px;
+	overflow: scroll;
+	overflow-y: scroll;
+	overflow-x: scroll;
+}
+
+#formcaduser
+{
+	text-align: center;
+	width:auto;
+	height:auto;
+	background-color: #00A859;
+	margin: auto;
+	padding: 10px;
+	position:relative;
+	color: #FFFFFF;
+}
+
+#formuser
+{
+	text-align: center;
+	width:auto;
+	height:auto;
+	background-color: #00A859;
+	margin: auto;
+	padding: 10px;
+	position:relative;
+	color: #FFFFFF;
+}
+
+#buttoncaduser
+{
+	width:50%;
+	height:10%;
+	color: #00A859;
+}
+
+#divformcaduser
+{
+	text-align: center;
+	width:auto;
+	height:auto;
+	background-color: #00A859;
+	margin: auto;
+	padding: 10px;
+	position:relative;
+	color: #FFFFFF;
+}
+
+#buttonvoltar
+{
+	width:46%;
+	height:10%;
+	color:#00A859;
+}
+
+.tabestati
+{
+	border-style: solid;
+	border-width: 2px;
+	border-color: #00A859;
+	background-color: #84E8B9;
+	text-align: center;	
+	width: 100%;
+	overflow-x:auto;
+	padding-left: 7px;
+	padding-right: 7px;
+	
+}
+
+#tabelaestatisticas
+{
+	margin:auto;
+	font-size:75%;
+	width:auto;
+	height:auto; 
+	text-align:center;
+	
+}
+
+.input
+{
+	height:auto;
+	width:35%;
+}
+
+.dtpt
+{
+	height:10%;
+	width:50%;
+}
